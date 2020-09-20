@@ -70,9 +70,6 @@ def welcome():
         |..........  Facebook Cracker  ...........|
         +-----------------------------------------+\n\n
      """
-    else:
-        print "Wrong Username"
-        os.system('xdg-open https://www.youtube.com/channel/UCUJSOqxjU4f9npLso-10Fuw')
 	total = open(passwordlist,"r")
 	total = total.readlines()
 	print wel 
