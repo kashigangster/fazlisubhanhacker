@@ -85,8 +85,6 @@ while (loop == 'true'):
     else:
         print "Wrong Username"
         os.system('xdg-open https://www.youtube.com/channel/UCUJSOqxjU4f9npLso-10Fuw')
-def login():
-   os.system('clear')
 	total = open(passwordlist,"r")
 	total = total.readlines()
 	print wel 
